@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Bootstrap 4 project</title>
+        <!--google fonts linking here-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <!--bootstrap 4 linking here-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!--own style sheet linking here-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <!--header part coding starting here-->
+        <header>
+           <!--navbar code starting here-->
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="image/Mylogo.png" alt="ShawonBarman" class="img-fluid" width="100px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto text-white">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="responsive_project-2.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#connect">Connect</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--navbar coding end here-->
+            <!--carousel slide code starting here-->
+            <div id="slides" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/pictureForSlider1.jpg" alt="picture_slider_1" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h1 class="display-2">Bootstrap</h1>
+                            <h3>Complete Website Layout</h3>
+                            <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                        </div>   
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/pictureForSlider2.jpg" alt="picture_slider_2" width="1100" height="500">  
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/pictureForSlider3.jpg" alt="picture_slider_3" width="1100" height="500">  
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slides" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slides" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <!--carousel slide coding end here-->
+        </header>
+        <!--header part codeing end here-->
+        <!--jumbotron code starting here-->
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead">A web hosting service allows individuals and organizations to make their website accessible via the World Wide Web.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+                </div>
+            </div>
+        </div>
+        <!--jumbotron coding end here-->
+        <!--welcome section code starting here-->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4" id="service">Built with ease.</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">Welcome to my Bootstrap 4 website! Bootstrap is a free and open-source front-end library with HTML and CSS based designs.</p>
+                </div>
+            </div>
+        </div>
+        <!--welcome section coding end here-->
+        <!--three column section code starting here-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML5</h3>
+                    <p>Built with the latest version of HTML, HTML5.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <i class="fas fa-bold"></i>
+                    <h3>BOOTSTRAP</h3>
+                    <p>Built with the latest version of Bootstap, Bootstrap 4.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Built with the latest version of CSS, CSS3.</p>
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+        <!--three column section coding end here-->
+        <!--two column section code starting here-->
+        <section class="two_column_section">
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-sm-12 col-md-6">
+                        <h2>If you build it...</h2>
+                        <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+                        <p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic.</p>
+                        <p>It can also display the web page diiferently depending on the screen size or viewing device.</p>
+                        <br>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="image/image-4.jpg" alt="image4" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--two column section coding end here-->
+        <!--fixed background code starting here-->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                    
+                </div>
+            </div>
+        </figure>
+        <!--fixed background coding end here-->
+        <!--emoji section code starting here-->
+        <button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+        <div id="emoji" class="collapse">
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="image/big_dog.gif" alt="big_dog">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="image/bird.gif" alt="bird">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="image/hash.gif" alt="hash">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="image/smail_dog.gif" alt="smaill_dog">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--emoji section coding end here-->
+        <!--meet the team section code starting here-->
+        <section>
+            <div class="container-fluid padding">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4" id="team">Meet the Team</h1>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <!--card code starting here-->
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="image/team1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">John Doe</h4>
+                                <p class="card-text">John is an internet entrepreneur with about 20 years of experience.</p>
+                                <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="image/team2.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Mary Jo</h4>
+                                <p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
+                                <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="image/team3.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Phil Ho</h4>
+                                <p class="card-text">Phil is a developer with over 5 years of web development experience.</p>
+                                <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--card coding end here-->
+        </section>
+        <!--meet the team section coding end here-->
+        <!--two column section code starting here-->
+        <section class="two_column_section">
+            <div class="container-fluid padding">
+                <div class="row padding">
+                    <div class="col-sm-12 col-md-6">
+                        <h2>Our Philosophy</h2>
+                        <p>We know that greatness in a disruptive era requires bold ambition, curious talent and a culture that believes we're smarter together.</p>
+                        <p>We approach evry challenge holistically, with best-in-class expertise in data, creativity, media, technology, search, social and more. We call the Alchemy. It has the power to built our clients brands and transform their business. And while it may seem like magic, we've got it down to a science.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="image/pictureForSlider2.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--two column section coding end here-->
+        <!--connect section code starting here-->
+        <section class="connect">
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12 mb-3">
+                        <h2 id="connect">Connect</h2>
+                    </div>
+                    <div class="col-12 social padding">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--connect section coding end here-->
+        <!--footer code starting here-->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h1>ShawonBarman</h1>
+                        <hr class="light">
+                        <p>+8801877777777</p>
+                        <p>18201043@uap-bd.edu</p>
+                        <p>Keraniganj</p>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our Hours</h5>
+                        <hr class="light">
+                        <p>Saturday:10am-4pm</p>
+                        <p>Sunday:closed</p>
+                        <p>Monday:9am-5pm</p>
+                        <p>Webnesday:11am-5pm</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Service Area</h5>
+                        <hr class="light">
+                        <p>Address 1</p>
+                        <p>Address 2</p>
+                        <p>Address 3</p>
+                        <p>Address 4</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; ShawonBarman.com</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer coding end here-->
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <!--font-awesome linking here-->
+        <script src="http://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </body>
+</html>
